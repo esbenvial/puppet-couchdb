@@ -38,7 +38,7 @@ class couchdb (
     repos    => 'main',
     #pin      => '-10',
     key      => {
-      'id'     => '15866BAFD9BCC4F3C1E0DFC7D69548E1C17EAB57',
+      'id'     => '8756C4F765C9AC3CB6B85D62379CE192D401AB61',
       'source' => 'https://couchdb.apache.org/repo/bintray-pubkey.asc',
     },
     include  => {
