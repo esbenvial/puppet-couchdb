@@ -1,0 +1,36 @@
+{
+  "name": "esben-couchdb",
+  "version": "0.1.0",
+  "author": "esben",
+  "summary": "Setup CouchDB",
+  "license": "Apache-2.0",
+  "source": "https://github.com/esbenvial/puppet-couchdb.git",
+  "project_page": "https://github.com/esbenvial/puppet-couchdb",
+  "issues_url": "https://github.com/esbenvial/puppet-couchdb/issues",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "16.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 6.0.0"
+    }
+  ],
+  "pdk-version": "1.2.1",
+  "template-url": "file://C:/PROGRA~1/PUPPET~1/DevelopmentKit/share/cache/pdk-module-template.git",
+  "template-ref": "heads/master-0-gd2dae81"
+}
