@@ -30,8 +30,13 @@ class couchdb (
   $view_index_dir             = '/var/lib/couchdb',
 ) {
 
+  include ::apt
+
+  apt::ppa { 'ppa:couchdb/stable': }
+
   package { 'couchdb':
     ensure => present,
+    require => Apt::Ppa['ppa:couchdb/stable'],
   }
 
   file { 'uuid.ini':
